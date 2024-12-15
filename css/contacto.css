@@ -1,0 +1,50 @@
+/*Estilos del Formulario de Contacto*/
+
+.contacto_contenedor{
+    text-align: center;
+}
+.contacto-titulo{
+    background-color: #ff0001;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.2rem;
+    padding: 1.2rem 0;
+}
+
+.contacto-completa{
+    font-size: 1.15rem ;
+    font-weight: 500;
+    margin: 1.2rem 0 1rem;
+    text-align: left;
+}
+
+.form-check-input:checked {
+    background-color: #462a19;;
+    border-color: #ffb900;
+}
+
+.politica-privacidad{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.btn {
+    --bs-btn-padding-x: 22.4rem;
+    --bs-btn-padding-y: 0.6rem;
+    --bs-btn-font-size: 1.1rem;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ff0001;
+    --bs-btn-border-color: #ff0001;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #c90606;
+    --bs-btn-hover-border-color: #ff0001;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ff0001;
+    --bs-btn-active-border-color: #ff0001;
+}

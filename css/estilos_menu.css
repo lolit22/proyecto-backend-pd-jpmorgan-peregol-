@@ -1,0 +1,39 @@
+/* Reseteo del Navegador Web */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reseteo Selectores de Etiquetas */
+body{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* Estilos del header */
+.encabezado{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background_encabezado.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-height: 350px;
+}
+
+.card-img-top{
+    align-items: center;
+}

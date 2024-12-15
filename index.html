@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>McDonald's - Pileta de Cheddar</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--Vinculación del archivo contacto.html con el archivo de CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Vinculación del archivo contacto.html con el archivo estilos.css-->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!--Tipografía de Google Fonts (varinantes 300, 400 y 700)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Encabezado de la Página Principal-->
+    <header class="encabezado">
+
+        <div class="encabezado__logo">
+            <img src="./images/home/Logo_2.png" alt="Logo de McDonald's Pileta de Cheddar">
+        </div>
+        <div class="encabezado__eslogan">
+            <h1 class="encabezado__eslogan-titulo">Pileta de Cheddar</h1>
+            <p class="encabezado__eslogan-parrafo">Una mini pelopincho con mucho, muchísimo cheddar, che!</p>
+        </div>
+
+    </header>
+
+    <!--Sección Principal de la Página Principal--> 
+    <main class="principal">
+        <!--Sección 1: Video de Pileta de Cheddar incrustado-->
+        <section  class="s1-video">
+            <div class="s1-video__contenedor">
+                <video class="s1-video__iframe" controls poster="./images/home/caratulavideo.png">
+                    <source src="./videos/pileta_de_Cheddar_mcDonald's.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+        </section>
+
+        <!--Sección 2: Pedi y Retira - McDonald's Argentina-->
+        <section class="s2-linktree">
+            <ul class="s2-linktree__lista">
+                <li class="s2-linktree__lista-item" style="background-color: red">
+                    <a class="s2-linktree__lista-enlace" href="./pages/menu.php"><img src="./images/home/w_mcdelivery.png" width="40px" alt=""> Pedí y Retirá <img src="./images/home/w_mcdelivery.png" width="45px" alt=""></a>
+                </li>
+            </ul>
+        </section>
+
+        <!--Sección 3: Menu F1 - Bacon McMELT - McFlurry - McDonald's Land-->
+        <section class="s3-tarjetas">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                
+                <div class="col">
+                    <div class="card" style="font-family: 'Hind Vadodara', sans-serif;">
+                        <img src="./images/home/F1_McDonalds.png" class="card-img-top" alt="Menu F1">
+                        <div class="card-body" style="font-family: 'Hind Vadodara', sans-serif;">
+                            <h5 class="card-title text-center" style="font-weight: 600; padding-bottom: 0.5em;">¡Llegó el Nuevo Menú F1!</h5>
+                            <p class="text-center">El sabor de McDonald's llegó a la Fórmula 1.<br>Un cuarto de libra tuneado con bacon, cheddar, kétchup y vestido para la carrera.<br>Disfrutá el Nuevo Menú F1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a class="s3-tarjetas__lista-enlace" href="https://www.mcdonalds.com.ar/baconcheddarmcmelt" target="_blank">
+                            <img src="./images/home/McMelt_Cheddar.png" class="card-img-top" alt="McMelt">
+                            <div class="card-body" style="font-family: 'Hind Vadodara', sans-serif;">
+                            <h5 class="card-title text-center" style="font-weight: 600; padding-bottom: 0.5em;"> ¡Nueva Bacon Cheddar McMelt!</h5>
+                            <p class="text-center">Llegó la nueva Bacon Cheddar McMelt, con mucho, muchísimo cheddar, che. <br>Chequeadísimo que te va a encantar. <br> Vení a probarla. </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/home/McFlurry_Chocotorta.png" class="card-img-top" alt="McFlurry">
+                        <div class="card-body" style="font-family: 'Hind Vadodara', sans-serif;">
+                            <h5 class="card-title text-center" style="font-weight: 600; padding-bottom: 0.5em;">¡Nuevo McFlurry Chocotorta!</h5>
+                            <p class="text-center">Llegó el nuevo McFlurry Chocotorta. <br> Doble porcion de salsa de chocolate, trocitos de galletitas Chocolinas y helado de vainilla. <br>Afuera no lo entenderían.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a class="s3-tarjetas__lista-enlace" href="https://www.mcdonalds.com.ar/mcdonalds-land" target="_blank">
+                            <img src="./images/home/PR_McTycoon.png" class="card-img-top" alt="McDonald's Land">
+                            <div class="card-body" style="font-family: 'Hind Vadodara', sans-serif;">
+                            <h5 class="card-title text-center" style="font-weight: 600; padding-bottom: 0.5em;">McDonald's Land Roblox</h5>
+                            <p class="text-center">Es un juego formado por 5 islas flotantes, cada una con minijuegos con los que te permite obtener muchos descuentos y recompensas.<br>Vivilo en la plataforma Roblox.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Sección 4: LinkTree de McDonald's Argentina-->
+        <section class="s2-linktree">
+            <ul class="s2-linktree__lista">
+                <li class="s2-linktree__lista-item">
+                    <a class="s2-linktree__lista-enlace" href="https://www.mcdonalds.com.ar/" target="_blank"><img src="./images/home/w_mcdonald's.png" width="35px" alt=""> Chetísima nuestra web ¡Visitala, che! <img src="./images/home/w_mcdonald's.png" width="35px" alt=""></a>
+                </li>
+                <li class="s2-linktree__lista-item">
+                    <a class="s2-linktree__lista-enlace" href="https://www.facebook.com/McDonaldsArgentina/" target="_blank"><img src="./images/home/w_facebook.png" width="35px" alt=""> Chusmeá nuestro Facebook ¡Entrá, che! <img src="./images/home/w_facebook.png" width="35px" alt=""></a>
+                </li>
+                <li class="s2-linktree__lista-item">
+                    <a class="s2-linktree__lista-enlace" href="https://www.youtube.com/user/McDonaldsSur" target="_blank"><img src="./images/home/w_youtube.png" width="35px" alt=""> Chequeá nuestro YouTube ¡Ingresá, che! <img src="./images/home/w_youtube.png" width="35px" alt=""></a>
+                </li>
+            </ul>
+        </section>
+
+        <!--Sección 5: Banner Cajita Feliz - Trailer Película 'Mi Villano favorito 4'-->
+        <section class="s4-banner">
+            <div class="s4-banner__contenedor">
+                <a class="s4-banner__enlace" href="https://www.youtube.com/watch?v=FI4xFqXL5ww" target="_blank"><img class="s4-banner__imagen" src="./images/home/banner_MVF4.png" width="1000px" alt="Banner Cajita Feliz - Película 'Mi Villano favorito 4'"></a>
+            </div>
+        </section>
+    </main>
+
+    <!--Pié de Página-->
+    <footer class="pie-pagina">
+        <!--Links de Interés-->
+        <div class="pie-pagina__contenedor">
+            <div class="links-interes">
+                <div class="enlaces_contenedor">
+                    <a class="pie-pagina_enlace" href="https://www.mcdonalds.com.ar/quienes-somos/arcos-dorados" target="_blank">Arcos Dorados</a>
+                    <a class="pie-pagina_enlace" href="https://recetadelfuturo.com/" target="_blank">Receta del Futuro</a>
+                    <a class="pie-pagina_enlace" href="./pages/contacto.html">Contacto</a>
+                </div>
+    
+                <div class="descargas__contenedor">
+                  <img class="imagen-enlace" src="./images/home/descarga_app.png" alt="">
+                  <a class="pie-pagina_enlace" href="https://www.mcdonalds.com.ar/descarga_app" target="_blank">Descarga la App</a>
+                </div>
+            </div>
+            
+            <hr>
+
+            <!--Créditos-->
+            <div class="pie-pagina__creditos">
+                <img class="creditos__logo" src="./images/home/mcdonalds-logo-footer-bg-white.png" alt="Logo McDonald's amarillo">
+                <p class="creditos__parrafo">©McDonald's 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Vinculación del archivo index.html con librería confetti de JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+    <!--Vinculación del archivo index.html con el archivo main de JavaScript Confetti -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

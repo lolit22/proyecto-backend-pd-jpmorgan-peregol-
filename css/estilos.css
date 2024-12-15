@@ -1,0 +1,252 @@
+/* Reseteo del Navegador Web */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reseteo Selectores de Etiquetas */
+body{
+    background-color: #ffb900;
+    color: #000000;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img, video, iframe{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del header */
+.encabezado{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/home/background_encabezado.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-height: 450px;
+}
+
+.encabezado__logo{
+    width: 190px;
+    margin: 100px 45px 10px 0px;
+}
+
+.encabezado__eslogan{
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.encabezado__eslogan-titulo{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 24px;
+
+}
+
+.encabezado__eslogan-parrafo{
+    font-size: 1.9rem;
+    font-weight:500;
+    margin-bottom: 50px;
+    margin-top: 8px;
+}
+
+/* Estilos del main */
+.principal{
+    /* border:5px solid blue;  */
+    width: 50%;
+    margin:0 auto;
+}
+
+/*Estilos Sección 1: Video de Pileta de Cheddar incrustado*/
+.s1-video__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s1-video__iframe{
+    border-radius: 0.4rem;
+}
+/* Estilos Sección 2 y Sección 4 */
+.s2-linktree{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.s2-linktree__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.s2-linktree__lista-item{
+    background-color: #ff0001;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+    letter-spacing: 0.2rem;
+}
+
+.s2-linktree__lista-item :hover{
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    color: #ffd900;
+}
+
+.s2-linktree__lista-enlace{
+    display: block;
+    padding: 0.8rem;
+}
+
+/*Estilos Sección 3: Menu F1 - Bacon McMELT - McFlurry - McDonald's Land*/
+.s3-tarjetas__lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+}
+
+.s3-tarjetas__lista-item{
+    width: 365px;
+    height: 340px;
+    border-top: 2px solid #462a19;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.s3-tarjeta__lista-imagen{
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.s3-tarjeta__lista-titulo{
+    font-size: 1.45rem;
+    margin: 0.6rem 1rem;
+
+}
+
+.s3-tarjeta__lista-parrafo{
+    margin: 1rem 1rem;
+}
+
+.card-body{
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+}
+
+/*Estilos Sección 4: Banner Cajita Feliz - Trailer Película 'Mi Villano favorito 4'*/
+.s4-banner__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.s4-banner__enlace{
+    margin-bottom: 1.5rem;
+}
+
+.s4-banner__imagen{
+    border-radius: 0.4rem;
+}
+
+/*Estilos del footer*/
+.pie-pagina{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.pie-pagina__contenedor{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+}
+
+.links-interes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.pie-pagina_enlace:hover{
+    color:#ffb900;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.imagen-enlace{
+    width:35px;
+    margin: 0 3px;
+}
+
+.enlaces_contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    gap:2rem;
+}
+
+.descargas__contenedor{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.descargas__titulo{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.descargas__enlace img{
+    width: 110px;
+}
+
+.pie-pagina__creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.creditos__logo{
+    width: 5.7rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.6rem;
+}
+
+.creditos__parrafo{
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    font-family: 'Hind Vadodara', sans-serif;
+}
