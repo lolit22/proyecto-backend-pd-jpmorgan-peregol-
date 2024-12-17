@@ -130,7 +130,7 @@ mysqli_close($conexion_bd);
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                 <li class="link_abm"><a href="./consultas.html" class="nav-link px-2 link-secondary">AMB McDonald's</a></li>
                 <li class="link_abm"><a href="./listar_productos.php" class="nav-link px-4 link-dark">Listar Productos</a></li>
-                <li class="link_abm"><a href="#" class="nav-link px-2 link-dark">Agregar Producto</a></li>
+                <li class="link_abm"><a href="./agregar_productos.html" class="nav-link px-2 link-dark">Agregar Producto</a></li>
             </ul>
             <div class="col-md-3 text-end">
                 <a href="../menu.php">
